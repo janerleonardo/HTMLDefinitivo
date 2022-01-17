@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Videos</title>
+</head>
+<body>
+      <main>
+          <section>
+            <video src="./video.mp4" controls preload="auto"></video>
+        </section>
+        <section>
+            <!-- Para tener varios videos por si el navegador no reconoce alguno-->
+            <video  controls preload="auto">
+                <source src="./video.mp4">
+                <source src="./video.m4v">
+                <source src="./video.avi">
+            </video>
+        </section>
+      </main>  
+
+
+      <p>
+        La etiqueta video, tiene algunos atributos como:
+            1 . controls: agrega al video los controles necesarios para reproducir, pausar y adelantar.
+            
+            2. preload = auto: hace que el navegador descargue el video, en el momento en el que se acceda a la página.
+            
+            La etiqueta source, se puede colocar dentro de una etiqueta video varias veces, para especificar diferentes rutas. Esto para asegurar que cualquier navegador pueda mostrar el video.
+      </p>
+    
+</body>
+</html>
