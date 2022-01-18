@@ -35,3 +35,6 @@ solo afecta a esos elementos */
     color: red;
 }
 
+.main-nav__item a::after {
+    content: " |";
+}
