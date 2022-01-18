@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tipo de CSS</title>
+    <!--ligar el css desde un archivo externo-->
+    <link rel="stylesheet" href="./css/styles.css">
+
+    <!--Poner el CSS en el HTML, esa opcion puede hacer muy demorado la carga del sitio ya que el CSS
+    si se pone muchos, se volveria muypesado el navegado  -->
+    <style>
+        h2 {
+            color: chartreuse;
+        }
+        p {
+            color: crimson;
+        }
+    </style>
+
+</head>
+<body>
+    
+    <h1>Estilo desde el link de archivo externo, por etiqueta</h1>
+    <h2>Estilo desde la Etiqueta style en html, referenciando la etiqueta </h2>
+    <!--No esmuy buena practivva pero se usa para cosa puntuales-->
+    <h3 style="color: brown;">Estilo embevido en la etiqueta de contenido HTML</h3>
+
+    <p style="font-size: 30px;"> Cambinacion de las tres formas,  en esta etiqueta estamos poniendo estilos des la etiqueta contenido, 
+        la etiqueta style y el archivo css </p>
+
+    <h4 class="titulopeq"> Estilo por clases se utiliza el punto . (punto)</h4>
+    <h4 id="texto"> Estilo por id, se utilizo el # numeral</h4>
+</body>
+</html>

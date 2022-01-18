@@ -1,0 +1,18 @@
+h1 {
+    color: aqua;
+}
+
+p {
+    background-color: aqua;
+}
+
+/*Clase*/
+
+.titulopeq {
+    color: darkblue;
+}
+
+/* ID */
+#texto {
+    color: darkorange;
+}
